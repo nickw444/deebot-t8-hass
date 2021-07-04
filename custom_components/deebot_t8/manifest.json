@@ -1,0 +1,17 @@
+{
+  "domain": "deebot_t8",
+  "name": "Ecovacs DEEBOT OZMO T8",
+  "version": "1.0.0",
+  "config_flow": true,
+  "requirements": [
+    "deebot-t8==1.0.0"
+  ],
+  "ssdp": [],
+  "zeroconf": [],
+  "homekit": {},
+  "dependencies": [],
+  "codeowners": [
+    "@nickw444"
+  ],
+  "iot_class": "cloud_push"
+}
