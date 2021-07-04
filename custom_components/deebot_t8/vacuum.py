@@ -74,7 +74,10 @@ class DeebotT8VacuumEntity(SubscribedEntityMixin, StateVacuumEntity):
         return 'Charging' if self.api_entity.state.is_charging else None
 
     def start(self):
-        self.api_entity.clean()
+        if self.api_entity.state.state == VacuumState.RobotState.PAUSED:
+            self.api_entity.resume()
+        else:
+            self.api_entity.clean()
 
     def pause(self):
         self.api_entity.pause()
