@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "config_flow": true,
   "requirements": [
-    "deebot-t8==1.0.0"
+    "deebot-t8==1.0.1"
   ],
   "ssdp": [],
   "zeroconf": [],
