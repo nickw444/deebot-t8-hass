@@ -1,3 +1,9 @@
+# ⚠️ Warning: Abandonware Ahead ⚠️
+
+This custom component/integration is no longer under active development, as I have now migrated my Home Assistant integration to use [DeebotUniverse/Deebot-4-Home-Assistant](https://github.com/DeebotUniverse/Deebot-4-Home-Assistant)
+
+--- 
+
 # Ecovacs Deebot OZMO T8 For Home Assistant
 
 Custom component/integration for Home Assistant to support Ecovacs DEEBOT OZMO T8 line of robots
